@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restoran Kava Tava nudi ukusne domaće obroke u toploj atmosferi. Smešten u samom centru grada, savršen je za porodična okupljanja, proslave i događaje.">
+    <meta name="title" content="Restoran Kava Tava - Ukusni Domaći Obroci u Prijatnoj Atmosferi">
+    <meta name="keywords" content="restoran, domaći obroci, porodična okupljanja, prijatna atmosfera, proslave, centar grada">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Konoba Kava Tava</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Konoba Kava Tava</div>
+    <nav>
+        <!-- Hamburger meni ikona -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <!-- Navigacija koja je sakrivena na mobilnim uređajima -->
+        <ul id="menu" class="hidden">
+            <li><a href="#o-nama">O nama</a></li>
+            <li><a href="#jelovnik">Jelovnik</a></li>
+            <li><a href="#usluge">Usluge</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="language-button">
+        <button id="toggleLang">ENG</button>
+    </div>
+</header>
+
+<!-- Google Translate Widget -->
+<div id="google_translate_element"></div>
+
+    <!-- Hero sekcija -->
+    <section class="hero">
+    </section>
+
+        <!-- O nama sekcija -->
+    <section id="o-nama-container">
+      <img src="images/o nama2.PNG" alt="O nama 1" class="background-img left-img">
+      <img src="images/o nama1.jpg" alt="O nama 2" class="background-img right-img">
+  
+      <section id="o-nama">
+          <h1>O nama</h1>
+          <h2>Dobrodošli u Konobu Kava Tava!</h2>
+          <p>
+              U srcu naše konobe krije se jednostavna, ali važna želja – da svaki gost ponese sa sobom nezaboravne uspomene.
+              Želimo da se kod nas osjećate kao kod kuće, u toploj i prijatnoj atmosferi, uz ukusnu hranu i srdačno osoblje.
+              Uživajte u bogatoj ponudi domaće kuhinje, tradicionalnim jelima pripremljenim s ljubavlju, kao i raznim specijalitetima s roštilja.
+              Bilo da dolazite na opušten ručak, porodičnu večeru ili slavlje s prijateljima, tu smo da Vaš boravak učinimo posebnim.<br>
+              Radujemo se Vašoj posjeti budite naši gosti, a mi ćemo se potruditi da postanemo Vaš omiljeni kutak za uživanje!
+          </p>
+      </section>
+  </section>
+  
+
+    <!--Slideshow sekcija -->
+    <section>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="images/slideshow1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slika_2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slideshow2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/slideshow3.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/slideshow4.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/slideshow5.png" style="width:100%">
+  </div>
+</div>
+
+    </section>
+
+    <!-- Jelovnik sekcija -->
+    <!-- Trigger/Open The Modal -->
+    <section id="jelovnik">
+        <button id="myBtn">Jelovnik</button>
+        
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+         <!-- Modal sadržaj -->
+<div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Jelovnik</h2>
+    </div>
+    
+    <div class="modal-body">
+      <!-- Doručak sekcija -->
+      <div class="collapsible-container">
+          <h3 class="collapsible">DORUČAK</h3>
+          <div class="collapsible-content">
+              <p><strong>Kava Tava doručak</strong></p>
+              <p>(jaja, kobasica, slanina, pršut, kajmak, uštipci)</p>
+
+              <p><strong>Jaja</strong></p>
+              <p>(3 jaja)</p>
+
+              <p><strong>Omlet</strong></p>
+              <p>(šunka, sir, slanina, povrće)</p>
+
+              <p><strong>Pohovane palačinke</strong></p>
+              <p>(šunka, sir, pomfrit)</p>
+
+              <p><strong>Uštipci sa kajmakom</strong></p>
+
+              <p><strong>Hemendex</strong></p>
+              <p>(3 jaja, šunka 50gr)</p>
+
+              <p><strong>Bekendex</strong></p>
+              <p>(3 jaja, slanina 50gr)</p>
+
+              <p><strong>Prženice</strong></p>
+              <p>(4 komada, sir, pavlaka)</p>
+
+              <p><strong>Cicvara</strong></p>
+          </div>
+      </div>
+      <!-- Predjelo sekcija -->
+      <div class="collapsible-container">
+        <h3 class="collapsible">PREDJELO</h3>
+        <div class="collapsible-content">
+    <p><strong>Hladna plata za jednu osobu</strong><br>
+    (pršut, sir, kajmak, kulen, masline)</p>
+
+    <p><strong>Hladna plata za dve osobe</strong><br>
+    (pršut, sir, kajmak, kulen, masline)</p>
+
+    <p><strong>Hladna plata za tri osobe</strong><br>
+    (pršut, sir, kajmak, kulen, masline)</p>
+        </div>
+      </div>
+      <!-- Gotova jela sekcija -->
+      <div class="collapsible-container">
+        <h3 class="collapsible">GOTOVA JELA</h3>
+        <div class="collapsible-content">
+    <p><strong>Pasulj</strong> (Kranjska kobasica ili slanina, kupus salata)</p>
+    <p><strong>Gulaš</strong> (pire, riža, tjestenina)</p>
+    <p><strong>Teleća čorba</strong></p>
+    <p><strong>Mađarska čorba</strong></p>
+    <p><strong>Riblja čorba</strong></p>
+        </div>
+      </div>
+      <!-- Jela sa roštilja sekcija -->
+       <div class="collapsible-container">
+        <h3 class="collapsible">JELA SA ROŠTILJA</h3>
+        <div class="collapsible-content">
+    <p><strong>Banjalučki ćevap</strong></p>
+    <p><strong>Banjalučki ćevap mali</strong></p>
+    <p><strong>Roštiljske kobasice</strong></p>
+    <p><strong>Pileće bijelo meso</strong><br>
+    (250gr pileće bijelo meso i pomfrit)</p>
+    <p><strong>Pilleće krpice</strong></p>
+    <p><strong>Svinjske krpice</strong></p>
+    <p><strong>Ražnjići</strong></p>
+    <p><strong>Pileći batak sa žara</strong></p>
+    <p><strong>Punjeni batak</strong></p>
+    <p><strong>Gurmanska pljeskavica</strong></p>
+    <p><strong>Kava Tava plata za dve osobe</strong><br>
+    (Karadjordjeva šnicla 2 komada, punjeni pileći file 2 komada, gurmansa pljeskavica 2 komada, svinjska krmenadla 2 komada, svinjski ražnjići 1 komad, svinjski ražnjići 1 komad, pomfrit, lepinja)</p>
+
+    <p><strong>Plata za jednu osobu</strong><br>
+    (bijelo meso, carsko meso, krmenadla, svinjski ćevap, roštiljska kobasica, pomfrit, lepinja)</p>
+
+    <p><strong>Plata za dve osobe</strong><br>
+    (bijelo meso, carsko meso, krmenadla, svinjski ćevap, roštiljska kobasica, pomfrit, lepinja)</p>
+
+    <p><strong>Plata za tri osobe</strong><br>
+    (bijelo meso, carsko meso, krmenadla, svinjski ćevap, roštiljska kobasica, pomfrit, lepinja)</p>
+
+    <p><strong>Plata za četiri osobe</strong><br>
+    (bijelo meso, carsko meso, krmenadla, svinjski ćevap, roštiljska kobasica, pomfrit, lepinja)</p>
+        </div>  
+    </div>
+    <!-- Jela po narudžbi sekcija -->
+     <div class="collapsible-container">
+        <h3 class="collapsible">JELA PO NARUDŽBI</h3>
+        <div class="collapsible-content">
+    <p><strong>Karadjordjeva šnicla</strong></p>
+    <p><strong>Teleća šnicla</strong></p>
+    <p><strong>Pileće bijelo meso u šampinjon sosu</strong></p>
+    <p><strong>Bečka šnicla</strong></p>
+    <p><strong>Pileći krispi štapići</strong></p>
+    <p><strong>Banjalučka šnicla</strong></p>
+    <p><strong>Koljenica</strong> (prebranac, hren, kiseli kupus)</p>
+    <p><strong>Svinjske krmenadle</strong></p>
+        </div>
+     </div>
+    <!-- Riba sekcija -->
+     <div class="collapsible-container">
+        <h3 class="collapsible">RIBA</h3>
+        <div class="collapsible-content">
+    <p><strong>Pastrmka</strong></p>
+    <p><strong>Panirane lignje</strong></p>
+    <p><strong>Lignje sa žara</strong></p>
+    <p><strong>Frigane lignje</strong></p>
+    <p><strong>Oslić</strong></p>
+    <p><strong>Girice</strong></p>
+        </div>  
+    </div>
+    <!-- Ponuda dana sekcija -->
+     <div class="collapsible-container">
+        <h3 class="collapsible">PONUDA DANA</h3>
+        <div class="collapsible-content">
+    <p><strong>Glavno jelo i salata</strong></p>
+        </div>  
+     </div>
+    <!-- Desert sekcija -->
+     <div class="collapsible-container">
+        <h3 class="collapsible">DESERT</h3>
+        <div class="collapsible-content">
+    <p><strong>Palačinke</strong> (nutela, eurocream, plazma, marmelada)</p>
+    <p><strong>Baklava</strong></p>
+        </div>
+     </div>
+</div>
+</div>
+  
+        </section>
+         <!--Jelovnik flip kartice sekcija -->
+    <section class="flip-card-container">
+
+      <!--Kartica dorucak -->
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/dorucak.png.png" alt="Dorucak" style="width:300px;height:300px;">
+                  <p>Doručak</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Doručak</h1>
+                  <p>Počnite dan uz našu domaću ponudu doručka! Uživajte u svježim, lokalnim sastojcima koji će vas osnažiti za dan pred vama.</p>
+                  <p>Od obilnih jela do laganijih opcija, svaki zalogaj nosi autentičan ukus.</p>
+                </div>
+              </div>
+          </div>
+  
+          <!--Kartica predjelo -->
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/predjelo.png" alt="Predjelo" style="width:300px;height:300px;">
+                  <p>Predjelo</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Predjelo</h1>
+                  <p>U našoj ponudi hladnih plata naći ćete savršen spoj pršuta, sira, kajmaka, kulena i maslina.</p>
+                  <p>Ova jela idealna su za sve koji žele uživati u jednostavnom, ali bogatom ukusu domaćih delicija.</p>
+                </div>
+              </div>
+          </div>
+  
+          <!--Kartica gotova jela -->
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/gotova_jela.png" alt="Gotova jela" style="width:300px;height:300px;">
+                  <p>Gotova jela</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Gotova jela</h1>
+                  <p>U našoj ponudi gotovih jela naći ćete bogatu ponudu čorbi, kao i pasulj s kranjskom kobasicom ili slaninom.</p>
+                  <p>Tu su i gulaš s prilozima poput pirea, riže ili tjestenine, savršen za ljubitelje domaće kuhinje.</p>
+                </div>
+              </div>
+          </div>
+  
+          <!--Kartica roštilj -->
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/rostilj.png" alt="Jela sa roštilja" style="width:300px;height:300px;">
+                  <p>Jela sa roštilja</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Jela sa roštilja</h1>
+                  <p>Uživajte u izboru jela sa roštilja Banjalučki ćevapi, roštiljske kobasice, ražnjići, pileće i svinjske krpice, punjeni batak i gurmanske pljeskavice. </p>
+                  <p>Nudimo i bogate plate za jednu do četiri osobe - savršen izbor za ljubitelje roštilja.</p>
+  
+                </div>
+              </div>
+          </div>
+  
+           <!--Kartica jela po narudžbi-->
+           <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/jela_po_narudzbi.png" alt="Jela po narudžbi" style="width:300px;height:300px;">
+                  <p>Jela po narudžbi</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Jela po narudžbi</h1>
+                  <p>U ponudi jela po narudžbi pronaći ćete raznovrsne mesne specijalitete. </p>
+                  <p>Takođe, tu su i ukusne svinjske krmenadle te koljenica s prebrancem, hrenom i kiselim kupusom – jela pripremljena prema vašim željama.</p>
+  
+                </div>
+              </div>
+          </div>
+  
+           <!--Kartica Ponuda dana-->
+           <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/ponuda_dana.png" alt="Ponuda dana" style="width:300px;height:300px;">
+                  <p>Ponuda dana</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Ponuda dana</h1>
+                  <p>Ponuda dana dostupna je na upit – svakodnevno biramo svježe sastojke i pripremamo specijalitete koji će upotpuniti vaš obrok.  </p>
+                  <p>Obratite nam se za više informacija i uživajte u jedinstvenim okusima dana. </p>
+  
+                </div>
+              </div>
+          </div>
+  
+            <!--Kartica riba-->
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/riba.png" alt="Riba" style="width:300px;height:300px;">
+                  <p>Riba</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Riba</h1>
+                  <p>Za ljubitelje ribljih specijaliteta, nudimo pažljivo pripremljenu ribu sa najkvalitetnijim sastojcima. </p>
+                  <p>Bilo da preferirate laganije ili hrskavije varijante, svaki zalogaj donosi bogatstvo okusa i vrhunsku svježinu. </p>
+  
+                </div>
+              </div>
+          </div>
+  
+            <!--Kartica desert-->
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/baklava.png" alt="Desert" style="width:300px;height:300px;">
+                  <p>Desert</p>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Desert</h1>
+                  <p>Za kraj obroka, uživajte u našim slasnim desertima – sočne palačinke s Nutellom, Eurokremom, Plazmom ili marmeladom, te bogata baklava kao savršen izbor za ljubitelje slatkog. </p>
+                  <p>Posjetite nas i zasladite Vaš dan! </p>
+  
+                </div>
+              </div>
+          </div>
+      </section>
+
+   <!-- Sekcija sa uslugama -->
+<section id="usluge">
+    <div class="container">
+        <h2 class="section-title">Usluge</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3 class="service-title">PROSLAVE</h3>
+                <p class="service-description">
+                    Za važne trenutke, obezbjedite prostor koji će učiniti vašu proslavu nezaboravnom. Pružamo vam prijatan ambijent i fleksibilnost u organizaciji, uz profesionalnu uslugu i mogućnost prilagodjavanja menija prema vašim željama.
+                </p>
+                <p class="service-description">
+                    U našem lokalu možete organizovati:
+                    <ul class="event-list">
+                        <li>Rođendane svih uzrasta</li>
+                        <li>Krštenja</li>
+                        <li>Svadbe</li>
+                        <li>Porodične i poslovne proslave</li>
+                    </ul>
+                    <p class="service-description">
+                        Za važne trenutke, pružite svojim gostima nezaboravnu proslavu!
+                    </p>
+                    </p>
+            </div>
+            <div class="service-item">
+                <h3 class="service-title">KETERING</h3>
+                <p class="service-description">
+                    Nudimo ketering usluge za radnike svih vrsta zanimanja po pristupačnim cijenama. Naš cilj je da obezbiijedimo kvalitetnu i hranjivu hranu koja će vašim zaposlenima omogućiti energiju za cijeli radni dan.
+                </p>
+                <p class="service-description">
+                    Šta nudimo?
+                    <ul class="service-list">
+                        <li>Brza i sigurna dostava direktno na vašu lokaciju.</li>
+                        <li>Obroci prilagođeni potrebama radnika.</li>
+                        <li>Raznovrsni meniji: od sendviča, roštilja, čorbi, salata do toplih obroka.</li>
+                    </ul>
+                    <p class="service-description">
+                    Pružite vašim zaposlenima kvalitetan obrok. Vaš trenutak, naš savršen obrok!
+                </p>
+                </p>
+            </div>
+            <div class="service-item">
+                <h3 class="service-title">DEKORACIJE</h3>
+                <p class="service-description">
+                    Pored prostora za vašu proslavu, u našem lokalu možete dogovoriti i kompletnu dekoraciju koja će upotpuniti vaš važan dogadjaj. Od balona,  stolnjaka, svijećnjaka, kartica dobrodošlice - pobrinućemo se da prostor bude u skladu sa vašim željama i temom proslave.
+                </p>
+                <p class="service-description">
+                    Svaka proslava zaslužuje savršen obrok i dekoraciju! Kontaktirajte nas da rezervišete svoj termin i uživate u savršenoj proslavi!
+            </p>
+                </div>
+            <div class="service-item">
+                <h3 class="service-title">DAĆE</h3>
+                <p class="service-description">
+                    U našem lokalu možete organizovati i zadušni ručak, pružajući vašim gostima miran i ugodan prostor za okupljanje i sjećanje na voljene. Naš tim će se pobrinuti za svaku sitnicu, od pripreme obroka do organizacije prostora.
+                    Nudimo raznovrsne menije, prilagođene vašim željama i potrebama, uz diskretnu i profesionalnu uslugu.
+                    <br>
+                    Kontaktirajte nas kako bismo zajedno kreirali dogovor koji će održati poštovanje i mirnu atmosferu za ovu važnu priliku.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Kontakt sekcija -->
+<section id="kontakt">
+    <div class="kontakt-header">
+        <h2>Kontakt i Lokacija</h2>
+        <p>Kontaktirajte nas ili nas posjetite na lokaciji.</p>
+    </div>
+    </div>
+    <div class="kontakt-container">
+        <!-- Adresa -->
+        <div class="kontakt-item">
+          <h3>Instagram</h3>
+            <p><a href="https://www.instagram.com/konoba_kava_tava/" target="_blank">@konoba_kava_tava</a></p>
+            <h3>Email</h3>
+            <p><a href="mailto:kkavatava@gmail.com"><strong>kkavatava@gmail.com</strong></a></p>
+        </div>
+        
+        <!-- Telefon -->
+        <div class="kontakt-item">
+            <h3>Telefon</h3>
+            <p><a href="tel:+38751963588"><strong>+387 51 963 588</strong></a></p>
+            <p><a href="tel:+38765948668"><strong>+387 65 948 668</strong></a></p>
+        </div>
+        
+        <!-- Instagram i Email -->
+        <div class="kontakt-item">
+            <h3>Adresa</h3>
+            <p>Ilije Garašanina bb, Banja Luka 78000</p>
+            <p><a href="https://www.google.com/maps/place/Konoba+Kava-Tava/@44.7954525,17.2124451,800m/data=!3m2!1e3!4b1!4m6!3m5!1s0x475e0354aa3823cb:0x7e5a01459b7866e6!8m2!3d44.7954525!4d17.21502!16s%2Fg%2F11kzv_y50k?hl=sr&entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Pogledaj na Google Maps</a></p>
+        </div>
+    </div>
+
+    <!-- Google Maps Embed -->
+    <div class="maps-container">
+        <h2>Radno vrijeme: </h2>
+        <h3>Ponedjeljak - Subota</h3>
+        <h3>07:00 - 22:00</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.542409074491!2d17.259944257332174!3d44.7954563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e0354aa3823cb%3A0x7e5a01459b7866e6!2sKonoba+Kava+Tava!5e0!3m2!1sen!2sba!4v1679616124680!5m2!1sen!2sba" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<!-- Dugme za brzi povratak na vrh -->
+<button id="scrollToTopBtn" title="Vratite se na vrh" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
